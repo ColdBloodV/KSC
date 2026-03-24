@@ -1,7 +1,7 @@
 # GND Station Operation Guide
 
 ## Overview
-The T-SAT A Ground Station is responsible for: 
+T-SAT A Ground Station is responsible for: 
   * Sending the 'Detach' message to the T-SAT
   * Receiving altitude data from the T-SAT
   * Receiving the 'Detached' ACK from the T-SAT
