@@ -45,7 +45,7 @@ The LoRa RF module can **only send OR receive at one time**, not both simultaneo
 
 It is best to just wait a couple seconds and then send the 'Detach' message again.
 
-This issue was handled with Timers but the timing isn't 100% accurate. 
+This issue was handled with Timers and a flush packets function but the timing isn't 100% accurate. 
 
 
 ---
