@@ -76,7 +76,7 @@ void loop() {
         delay(10);
 
         //flush any straggling packets
-        if(r95.available()){
+        if(rf95.available()){
 
           uint8_t flush[RH_RF95_MAX_MESSAGE_LEN];
           uint8_t flen = sizeof(flush);
