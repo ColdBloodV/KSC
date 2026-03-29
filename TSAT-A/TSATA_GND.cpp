@@ -19,6 +19,8 @@ int lastButtonValue = 0;
 int currentlySending = 0; 
 int noreplycount = 1;
 
+unsigned long lastPacketTime = 0; 
+
 void setup() {
   Serial.begin(SERIAL_BAUD);
   delay(1000);
@@ -67,13 +69,31 @@ void loop() {
     // Button pressed (rising edge)
     if (buttonValue == HIGH && lastButtonValue == LOW) {
       currentlySending = 1; 
+
+      //Wait to prevent packet corruption 
+      unsigned long waitStart = millis();
+      while(millis() - lastPacketTime < 200){ //200ms 
+        delay(10);
+
+        //flush any straggling packets
+        if(rf95.available()){
+
+          uint8_t flush[RH_RF95_MAX_MESSAGE_LEN];
+          uint8_t flen = sizeof(flush);
+          rf95.recv(flush, &flen);
+          lastPacketTime = millis(); 
+          Serial.println("Killing before detach...");
+        }
+      }
+
       WaitACK();
       currentlySending = 0; 
       // Debounce
       delay(300);
       lastButtonValue = HIGH; //changed
     }
-  lastButtonValue = buttonValue;
+
+    lastButtonValue = buttonValue;
   
     //listen contniously for Altitude
     if (rf95.available()) {
@@ -81,6 +101,9 @@ void loop() {
       uint8_t len = sizeof(buf);
       
       if (rf95.recv(buf, &len)) {
+
+        //Track when we last received a packet
+        lastPacketTime = millis(); 
 
         if(len < RH_RF95_MAX_MESSAGE_LEN){
 
@@ -183,5 +206,3 @@ void flush(){
       Serial.println("packet got flushed ;(");
   }
 }
-
-
