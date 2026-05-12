@@ -18,26 +18,57 @@ I’d also like to fly the Astronomy Society on KAOS-2 as a tandem payload since
 10. Spongy Black Foam. 
 
 PCBs
-OSHPARK PCBs (USA)
+OSHPARK PCBs (USA) or PCB Way. 
+JCLPCB (This for fatty pcb 7x7). 
 Raspberry Pi pico Alex wants not do pins! 
 
 Comms Board, Main Board.
 
+Sensor Board Recycling
+1. BMP, Gyro, & SCD.
+
 Modules 
-1. Temp
+1. SCD Temp & Humdity Sensor 
 2. BMP 
-3. SCD 
-4.
+3. Gyroscope The MPU-6050 (often labeled GY-521) is a 6-axis motion tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.
+4. SD Card 
+5. Buzzer(Speaker)
+6. Clock (Adafruit).
+7. APRs 
+
+Camera's 
 
 
 Power 
-1. 
 
+
+MCU 
+2 picos
+1 Zero 
+
+Camera's
 
 
 Weight
+
+
 
 3 hr ascend. 
 30 minute descend. 
 
 https://github.com/lightaprs/LightAPRS-1.0
+
+Module Idea:
+
+https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html
+
+https://www.adafruit.com/product/3886
+
+https://www.adafruit.com/product/3295 - Clck 
+
+Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
+
+
+
+
+
