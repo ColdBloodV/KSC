@@ -1,4 +1,4 @@
-*KAOS-2 
+#KAOS-2 
 
 1. Hydrogen Vs. Helium 
 2. Housing Vent for Overheating
@@ -11,7 +11,7 @@
 9. Hit up Diab to see if we can use GND station. 
 10. Spongy Black Foam. 
 
-**Modules 
+##Modules 
 1. SCD Temp & Humdity Sensor 
 2. BMP 
 3. Gyroscope The MPU-6050 (often labeled GY-521) is a 6-axis motion tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.
@@ -30,7 +30,7 @@ Expanding the size of KAOS to a 6U to accommodate other clubs launching with us 
 Look into using Dove's old gopros for additional views
 Create a new bus for KAOS for our customers to hook onto where we supply power, telemetry, and comms.
 
-**PCBs
+##PCBs
 OSHPARK PCBs (USA) or PCB Way. 
 JCLPCB (This for fatty pcb 7x7). 
 
@@ -41,20 +41,20 @@ Comms Board, Main Board.
 Sensor Board Recycling
 1. BMP, Gyro, & SCD.
 
-**Power 
+##Power 
 
 
-**MCU 
+##MCU 
 2 picos
 1 Zero 
 
-**Camera's
+##Camera's
 
 
-**Antenna's
+##Antenna's
 Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
 
-**Weight
+##Weight
 KAOS-1 
 Kaymont Balooon: 2000g
 Payload Weight: 884g
@@ -66,11 +66,11 @@ Total Weight: 1218g
 Estimate Tolerance: 200g
 Total Weight for calculations: 1418g
 
-**Flight Estimate
+##Flight Estimate
 3 hr ascend. 
 30 minute descend. 
 
-**Module Ideas/Links:
+##Module Ideas/Links:
 
 https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
 
