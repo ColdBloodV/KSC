@@ -1,4 +1,4 @@
-
+*KAOS-2 
 
 1. Hydrogen Vs. Helium 
 2. Housing Vent for Overheating
@@ -6,28 +6,12 @@
 4. Insta 360 
 5. APRS
 6. Cameras (corrupted images). Ardu Mega
-
-The first thing to solve and extensively test is GOS acquisition and aprs transmission.
-Secondly, I’d like to explore why the Arduino-Cams keep producing a grey box on the pictures.
-I think we could try to motive the Ground Station team to use the ground station during the flight of KAOS-2.
-I’d also like to fly the Astronomy Society on KAOS-2 as a tandem payload since that is something we promised them.
-
 7. Backup GPS Airtag(student Discount). 
 8. Antenna's (Hit up travis) 
 9. Hit up Diab to see if we can use GND station. 
 10. Spongy Black Foam. 
 
-PCBs
-OSHPARK PCBs (USA) or PCB Way. 
-JCLPCB (This for fatty pcb 7x7). 
-Raspberry Pi pico Alex wants not do pins! 
-
-Comms Board, Main Board.
-
-Sensor Board Recycling
-1. BMP, Gyro, & SCD.
-
-Modules 
+**Modules 
 1. SCD Temp & Humdity Sensor 
 2. BMP 
 3. Gyroscope The MPU-6050 (often labeled GY-521) is a 6-axis motion tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.
@@ -36,37 +20,67 @@ Modules
 6. Clock (Adafruit).
 7. APRs 
 
-Camera's 
+The first thing to solve and extensively test is GOS acquisition and aprs transmission.
+Secondly, I’d like to explore why the Arduino-Cams keep producing a grey box on the pictures.
+I think we could try to motive the Ground Station team to use the ground station during the flight of KAOS-2.
+I’d also like to fly the Astronomy Society on KAOS-2 as a tandem payload since that is something we promised them.
+
+Reoganizing the inside of the 4U box to fit other payloads from other clubs/people
+Expanding the size of KAOS to a 6U to accommodate other clubs launching with us without needing to switch to a 2 payload balloon set up
+Look into using Dove's old gopros for additional views
+Create a new bus for KAOS for our customers to hook onto where we supply power, telemetry, and comms.
+
+**PCBs
+OSHPARK PCBs (USA) or PCB Way. 
+JCLPCB (This for fatty pcb 7x7). 
+
+MCU no pins
+
+Comms Board, Main Board.
+
+Sensor Board Recycling
+1. BMP, Gyro, & SCD.
+
+**Power 
 
 
-Power 
-
-
-MCU 
+**MCU 
 2 picos
 1 Zero 
 
-Camera's
+**Camera's
 
 
-Weight
+**Antenna's
+Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
 
+**Weight
+KAOS-1 
+Kaymont Balooon: 2000g
+Payload Weight: 884g
+Parachute Weight: 196g
+O-right weight: less than 1g
+Carabiner Weight: 12g
+Metal Eye Bolt Weight: 102g
+Total Weight: 1218g
+Estimate Tolerance: 200g
+Total Weight for calculations: 1418g
 
-
+**Flight Estimate
 3 hr ascend. 
 30 minute descend. 
 
-https://github.com/lightaprs/LightAPRS-1.0
+**Module Ideas/Links:
 
-Module Idea:
-
-https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html
+https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
 
 https://www.adafruit.com/product/3886
 
 https://www.adafruit.com/product/3295 - Clck 
 
-Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
+https://github.com/lightaprs/LightAPRS-1.0
+
+
 
 
 
