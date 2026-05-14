@@ -70,6 +70,9 @@ Total Weight for calculations: 1418g
 3 hr ascend. 
 30 minute descend. 
 
+## Trajectory/Recovery
+https://predict.sondehub.org/
+
 ## Module Ideas/Links:
 
 https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
@@ -79,6 +82,8 @@ https://www.adafruit.com/product/3886
 https://www.adafruit.com/product/3295 - Clck 
 
 https://github.com/lightaprs/LightAPRS-1.0
+
+https://makerworld.com/en/models/34707-multicolor-kerbal-from-kerbal-space-program-for-ba?from=search#profileId-129653
 
 
 
