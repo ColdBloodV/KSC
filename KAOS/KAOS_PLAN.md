@@ -30,6 +30,13 @@ Expanding the size of KAOS to a 6U to accommodate other clubs launching with us 
 Look into using Dove's old gopros for additional views
 Create a new bus for KAOS for our customers to hook onto where we supply power, telemetry, and comms.
 
+## Data Collection
+* Altitude
+* CO2
+* Pictures
+* Video
+* Temp
+
 ## PCBs
 OSHPARK PCBs (USA) or PCB Way. 
 JCLPCB (This for fatty pcb 7x7). 
