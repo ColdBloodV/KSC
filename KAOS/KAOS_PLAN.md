@@ -118,6 +118,8 @@ https://www.adafruit.com/product/1781
 
 https://www.adafruit.com/product/1313 -8 ohm speaker
 
+https://www.seeedstudio.com/IMX219-160-Camera-160-FOV-Applicable-for-Jetson-Nano-p-4603.html?gad_source=1&gad_campaignid=12740460396&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWT9q29YHWw0daC5d7V-952_xm-jBUq4S1vEw0P4yQzej9PaIomw-WBoCXRIQAvD_BwE
+
 
 
 
