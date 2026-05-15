@@ -50,15 +50,19 @@ Sensor Board Recycling
 
 ## Power 
 
+## Housing
+Cheap wood $10 
 
 ## MCU 
 2 picos
 1 Zero $28
 
 ## Camera's
-
+Fish eye $29
 
 ## Antenna's
+PBC 
+Copper wire
 Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
 
 ## Weight
@@ -107,6 +111,10 @@ https://www.adafruit.com/product/4867
 https://www.adafruit.com/product/3886
 
 https://www.adafruit.com/product/1314?srsltid=AfmBOoqa2Y0eFxMBJhQJ2VhBf37QU8frjgeTe-pMDWSDV-0_Tz_C6Noe1dw
+
+https://www.amazon.com/EC-Buying-Pi-Zero-Development/dp/B0FN4CN7TM/ref=sr_1_8?crid=RJYO2K17153U&dib=eyJ2IjoiMSJ9.e5njIqODvl6b9IKwVms-2052_VKm7f8HL6kTDEUeyjBf7_YxKQ8hajdGwvwMgjmoQPK5c6-g1trus2oke-6Z3zKntStBJFPEO0EzZGzMOpWLx-FsQy37CzgaQacQSjqUmOBLnsynvZjGtfiEhHCZioWvf3RslCAMppYBaox513KEm3U1Pqze8GlQJyJfZD2zZ2vmJaLE6Nu22hpfaY18W-__-YK45amULSCbR93REME.IQmlkUSf6EHdcJ4jEPzYcAGavXIu_KpR0BdQQQbFe4U&dib_tag=se&keywords=Raspberry+Pi+Zero+2+W&qid=1778803179&sprefix=raspberry+pi+zero+2+w%2Caps%2C365&sr=8-8
+
+https://www.adafruit.com/product/1781
 
 
 
