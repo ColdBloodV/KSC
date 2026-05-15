@@ -116,6 +116,8 @@ https://www.amazon.com/EC-Buying-Pi-Zero-Development/dp/B0FN4CN7TM/ref=sr_1_8?cr
 
 https://www.adafruit.com/product/1781
 
+https://www.adafruit.com/product/1313 -8 ohm speaker
+
 
 
 
