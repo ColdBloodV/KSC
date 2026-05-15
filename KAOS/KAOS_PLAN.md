@@ -77,6 +77,9 @@ Total Weight: 1218g
 Estimate Tolerance: 200g
 Total Weight for calculations: 1418g
 
+## Parachute
+Reusing T-SAT A parachute
+
 ## Flight Estimate
 3 hr ascend. 
 30 minute descend. 
