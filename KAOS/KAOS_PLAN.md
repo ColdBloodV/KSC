@@ -61,7 +61,7 @@ Cheap wood $10
 Fish eye $29
 
 ## Antenna's
-PBC 
+PVC 
 Copper wire
 Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
 
