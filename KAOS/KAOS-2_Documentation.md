@@ -11,6 +11,8 @@
 
 # Software
 
+Set up MCU: https://github.com/raspberrypi/pico-sdk
+
 # Communications
 ## Light APRS 
 
