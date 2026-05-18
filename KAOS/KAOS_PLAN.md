@@ -87,6 +87,8 @@ Reusing T-SAT A parachute
 ## Trajectory/Recovery
 https://predict.sondehub.org/
 
+https://github.com/csete/gpredict/releases/tag/v2.5.1
+
 ## Module Ideas/Links:
 
 https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
