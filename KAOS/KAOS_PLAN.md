@@ -91,7 +91,7 @@ https://github.com/csete/gpredict/releases/tag/v2.5.1
 
 ## Module Ideas/Links:
 
-https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
+
 
 https://www.adafruit.com/product/3886
 
@@ -104,12 +104,6 @@ https://makerworld.com/en/models/34707-multicolor-kerbal-from-kerbal-space-progr
 https://www.arducam.com/multi-camera-v2-1-adapter-raspberry-pi.html
 
 https://www.arducam.com/mega-5mp-color-rolling-shutter-camera-module-with-m12-lens-for-any-microcontroller.html -Cams KAOS-1 Used.
-
-https://www.pishop.us/product/camera-cable-joinerextender-for-raspberry-pi/ 
-
-https://www.arducam.com/multi-camera-v2-1-adapter-raspberry-pi.html
-
-https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
 
 https://www.adafruit.com/product/4867 
 
@@ -128,9 +122,18 @@ https://www.adafruit.com/product/1313 -8 ohm speaker
 https://www.verotelecom.com/Products/VGC-VR-N76-Dual-Band-Ham-Radio-KISS-TNC-Bluetooth-APRS-Satellite-Tracking-p2511333.html
 
 ## Possible Camera's 
+https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
+
 
 https://www.seeedstudio.com/IMX219-160-Camera-160-FOV-Applicable-for-Jetson-Nano-p-4603.html?gad_source=1&gad_campaignid=12740460396&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWT9q29YHWw0daC5d7V-952_xm-jBUq4S1vEw0P4yQzej9PaIomw-WBoCXRIQAvD_BwE
 
+## Camera Attachments 
 
+https://www.pishop.us/product/camera-cable-joinerextender-for-raspberry-pi/ 
+
+https://www.arducam.com/multi-camera-v2-1-adapter-raspberry-pi.html
+
+## No longer Need
+https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
 
 
