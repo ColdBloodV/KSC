@@ -49,6 +49,8 @@ Sensor Board Recycling
 1. BMP, Gyro, & SCD.
 
 ## Power 
+Add Solar Panels
+Wind Fan 
 
 ## Housing
 Cheap wood $10 
