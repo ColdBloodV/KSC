@@ -91,8 +91,6 @@ https://github.com/csete/gpredict/releases/tag/v2.5.1
 
 ## Module Ideas/Links:
 
-
-
 https://www.adafruit.com/product/3886
 
 https://www.adafruit.com/product/3295 - Clck 
@@ -111,9 +109,11 @@ https://www.adafruit.com/product/3886
 
 https://www.adafruit.com/product/1314?srsltid=AfmBOoqa2Y0eFxMBJhQJ2VhBf37QU8frjgeTe-pMDWSDV-0_Tz_C6Noe1dw
 
+## MCU's
+
 https://www.amazon.com/EC-Buying-Pi-Zero-Development/dp/B0FN4CN7TM/ref=sr_1_8?crid=RJYO2K17153U&dib=eyJ2IjoiMSJ9.e5njIqODvl6b9IKwVms-2052_VKm7f8HL6kTDEUeyjBf7_YxKQ8hajdGwvwMgjmoQPK5c6-g1trus2oke-6Z3zKntStBJFPEO0EzZGzMOpWLx-FsQy37CzgaQacQSjqUmOBLnsynvZjGtfiEhHCZioWvf3RslCAMppYBaox513KEm3U1Pqze8GlQJyJfZD2zZ2vmJaLE6Nu22hpfaY18W-__-YK45amULSCbR93REME.IQmlkUSf6EHdcJ4jEPzYcAGavXIu_KpR0BdQQQbFe4U&dib_tag=se&keywords=Raspberry+Pi+Zero+2+W&qid=1778803179&sprefix=raspberry+pi+zero+2+w%2Caps%2C365&sr=8-8
 
-https://www.adafruit.com/product/1781
+https://www.adafruit.com/product/1781 - Battery 
 
 https://www.adafruit.com/product/1313 -8 ohm speaker
 
