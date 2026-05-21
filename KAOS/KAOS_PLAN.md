@@ -109,31 +109,39 @@ https://www.adafruit.com/product/3886
 
 https://www.adafruit.com/product/1314?srsltid=AfmBOoqa2Y0eFxMBJhQJ2VhBf37QU8frjgeTe-pMDWSDV-0_Tz_C6Noe1dw
 
-## MCU's
+### MCU's
 
 https://www.amazon.com/EC-Buying-Pi-Zero-Development/dp/B0FN4CN7TM/ref=sr_1_8?crid=RJYO2K17153U&dib=eyJ2IjoiMSJ9.e5njIqODvl6b9IKwVms-2052_VKm7f8HL6kTDEUeyjBf7_YxKQ8hajdGwvwMgjmoQPK5c6-g1trus2oke-6Z3zKntStBJFPEO0EzZGzMOpWLx-FsQy37CzgaQacQSjqUmOBLnsynvZjGtfiEhHCZioWvf3RslCAMppYBaox513KEm3U1Pqze8GlQJyJfZD2zZ2vmJaLE6Nu22hpfaY18W-__-YK45amULSCbR93REME.IQmlkUSf6EHdcJ4jEPzYcAGavXIu_KpR0BdQQQbFe4U&dib_tag=se&keywords=Raspberry+Pi+Zero+2+W&qid=1778803179&sprefix=raspberry+pi+zero+2+w%2Caps%2C365&sr=8-8
 
+### Battery 
+
 https://www.adafruit.com/product/1781 - Battery 
+
+### Buzzer/Speaker
 
 https://www.adafruit.com/product/1313 -8 ohm speaker
 
-## Radio 
+### Radio 
 
 https://www.verotelecom.com/Products/VGC-VR-N76-Dual-Band-Ham-Radio-KISS-TNC-Bluetooth-APRS-Satellite-Tracking-p2511333.html
 
-## Possible Camera's 
+### Possible Camera's 
 https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
 
 
 https://www.seeedstudio.com/IMX219-160-Camera-160-FOV-Applicable-for-Jetson-Nano-p-4603.html?gad_source=1&gad_campaignid=12740460396&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWT9q29YHWw0daC5d7V-952_xm-jBUq4S1vEw0P4yQzej9PaIomw-WBoCXRIQAvD_BwE
 
-## Camera Attachments 
+### Camera Attachments 
 
 https://www.pishop.us/product/camera-cable-joinerextender-for-raspberry-pi/ 
 
 https://www.arducam.com/multi-camera-v2-1-adapter-raspberry-pi.html
 
-## No longer Need
+### Solar 
+
+https://www.adafruit.com/product/5855?gad_source=1&gad_campaignid=21079227318&gclid=CjwKCAjw2rrQBhBuEiwAarLWHTQTQLF9XBSzwCDK9d-VbhUqb3OOivSrNKz0ZjxTm2qZvzlb-eDjMBoCr6sQAvD_BwE
+
+### No longer Need
 https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
 
 
