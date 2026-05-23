@@ -35,3 +35,9 @@ Further info: https://github.com/lightaprs/LightAPRS-1.0
 V-Dipole Antenna: https://apbouwens.github.io/V-dipole-rad-pat/
 
 ## How the APRS Protocol Works 
+
+
+## Airtag 
+To be used as a close range backup recovery tool. Works over Bluetooth. Ranges from 100feet (30 meters) outdoors
+
+Other Option: Tile trackers which range from 100-500ft. 
