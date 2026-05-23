@@ -68,7 +68,7 @@ Copper wire
 Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
 
 ## Weight
-KAOS-1 
+### KAOS-1 
 Kaymont Balooon: 2000g
 Payload Weight: 884g
 Parachute Weight: 196g
@@ -78,6 +78,10 @@ Metal Eye Bolt Weight: 102g
 Total Weight: 1218g
 Estimate Tolerance: 200g
 Total Weight for calculations: 1418g
+
+### KAOS-2 
+Max Payload Weight: 6 pounds (2721g)
+
 
 ## Parachute
 Reusing T-SAT A parachute
