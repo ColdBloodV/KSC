@@ -148,4 +148,8 @@ https://www.adafruit.com/product/5855?gad_source=1&gad_campaignid=21079227318&gc
 ### No longer Need
 https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
 
+# Recovery 
+
+if it lands in a hiking trail we can rent bikes. 
+
 
