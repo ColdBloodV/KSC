@@ -119,6 +119,8 @@ https://www.amazon.com/EC-Buying-Pi-Zero-Development/dp/B0FN4CN7TM/ref=sr_1_8?cr
 
 https://www.adafruit.com/product/1781 - Battery 
 
+https://www.amazon.com/PKCELL-CR1220-Battery-Lithium-Count/dp/B0D8T4C5PK/ref=sr_1_1_sspa?crid=28EXCR2BK2VGR&dib=eyJ2IjoiMSJ9.FLJIQjx9Dx8y5aQQgHqGaUFY0QkYy109Q1dFfp1hFL9I391HHaPnWKxhBdYaqt4l3B6ucj9OCtWWXpVAmvWY0tvinOsbykjKb13CNnlnrUxBTGRlBEmsaKb56YADpUI5DC-8RJbs4QM6uy6j1GOeLc9AxVIXI3EG_GqDAX7p7k3TizAdZTegwOwMxkllHjePul6dgvxYim0tevATmnCYanbWBfvB3ooAmHdOZCTlwhiLHnfrca_dcxOz6ZUPRibM5U2r7OKhcJSjI9eqJT8bY9CE5-XKSzsE7LGkh0ERsL8.68JPXEiPomfiY5k25ScScNfUeLMfdHOi4FF8PYhVzMs&dib_tag=se&keywords=CR1220&qid=1779567721&sprefix=cr1220%2Caps%2C143&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1 - Battery for Clk
+
 ### Buzzer/Speaker
 
 https://www.adafruit.com/product/1313 -8 ohm speaker
