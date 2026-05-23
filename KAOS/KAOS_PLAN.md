@@ -152,4 +152,6 @@ https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/
 
 if it lands in a hiking trail we can rent bikes. 
 
+Bring Change of Clothes, Shoes, Water, Snacks, Sun Protection. Wear Shorts.
+
 
