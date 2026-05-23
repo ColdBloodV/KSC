@@ -154,4 +154,5 @@ if it lands in a hiking trail we can rent bikes.
 
 Bring Change of Clothes, Shoes, Water, Snacks, Sun Protection. Wear Shorts.
 
+shoe covers for recovery https://www.amazon.com/Covers-Reusable-Waterproof-Cover-Non-Slip/dp/B0CQS49P6K/ref=sr_1_31?crid=2VRFRZJH75KB1&dib=eyJ2IjoiMSJ9.yIWybTD5ituqeCL6H3gq8ANSorAQs3GZD8hsBRiBxZ-zoKIDBR25od0hTTcEcycShp40imCrhlSi_AB-ErU8di4LhO7lSroZmq4XOkow2ISv57m5Cw-blxTXnAnrYAZ9kGfSylK92M-mhlsK4Ucyby9gH_s3X5QJsEky3PMVBbVmQmKo9YrFJImJ3ys7bUqg50rST6zAt5beCAiOkNVlK0_SabqWYksGYDZmhVuHLjVssa9T0gzdyJdzTGcOYbbBP6Mew6YcgADxOXmLHpudZb0Cr8heS-Uq9ub4skfIUUA.N7MRogix1sR5NrJ-7FswC5IwEPUmiHJ2jrTwwHLSsKo&dib_tag=se&keywords=Waterproof%2BShoe%2BCovers&qid=1779566752&sprefix=waterproof%2Bshoe%2Bcovers%2Caps%2C228&sr=8-31&th=1 
 
