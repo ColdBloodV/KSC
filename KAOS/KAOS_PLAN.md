@@ -138,6 +138,8 @@ https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0BMKB3L47?th=1
 ### Possible Camera's 
 https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
 
+https://www.arducam.com/arducam-raspberry-pi-camera-v2-8mp-ixm219-b0103.html -8MP 
+
 
 https://www.seeedstudio.com/IMX219-160-Camera-160-FOV-Applicable-for-Jetson-Nano-p-4603.html?gad_source=1&gad_campaignid=12740460396&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWT9q29YHWw0daC5d7V-952_xm-jBUq4S1vEw0P4yQzej9PaIomw-WBoCXRIQAvD_BwE
 
