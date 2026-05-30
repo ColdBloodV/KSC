@@ -51,6 +51,7 @@ Sensor Board Recycling
 ## Power 
 Add Solar Panels
 Wind Fan 
+Insulate Batteries
 
 ## Housing
 Cheap wood $10 
