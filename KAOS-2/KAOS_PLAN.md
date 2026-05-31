@@ -1,34 +1,31 @@
-# KAOS-2 
-
+# KAOS-2 Plan
+## Consider
 1. Hydrogen Vs. Helium 
 2. Housing Vent for Overheating
 3. Trajectory for a July Launch. 
 4. Insta 360 
-5. APRS
+5. Look into using Dove's old gopros for additional views
 6. Cameras (corrupted images). Ardu Mega
 7. Backup GPS Airtag(student Discount). 
 8. Antenna's (Hit up travis) 
-9.  Use GND station. 
+9.  Try to see if we can use Physics GND station 
 10. Spongy Black Foam. 
 
 ## Modules 
 1. SCD Temp & Humdity Sensor -$60
 2. BMP 
 3. Gyroscope The MPU-6050 (often labeled GY-521) is a 6-axis motion tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip. -$12.95
-4. SD Card 
-5. Buzzer(Speaker) -$1.95
-6. Clock (Adafruit).
-7. APRs 
+4. SD Card - Adafruit
+5. Buzzer(Speaker) - Adafruit
+6. Clock - Adafruit
+7. Light APRs 
 
-The first thing to solve and extensively test is GOS acquisition and aprs transmission.
-Secondly, I’d like to explore why the Arduino-Cams keep producing a grey box on the pictures.
-I think we could try to motive the Ground Station team to use the ground station during the flight of KAOS-2.
-I’d also like to fly the Astronomy Society on KAOS-2 as a tandem payload since that is something we promised them.
-
-Reoganizing the inside of the 4U box to fit other payloads from other clubs/people
-Expanding the size of KAOS to a 6U to accommodate other clubs launching with us without needing to switch to a 2 payload balloon set up
-Look into using Dove's old gopros for additional views
-Create a new bus for KAOS for our customers to hook onto where we supply power, telemetry, and comms.
+## Fix, Add & Test
+* GOS acquisition and aprs transmission
+* ARDU-CAMS Corruption (keep producing a grey box on the pictures)
+* Antenna Design
+* Vents for housing
+* Stabilizer for CAMS
 
 ## Data Collection
 * Altitude
@@ -40,13 +37,6 @@ Create a new bus for KAOS for our customers to hook onto where we supply power, 
 ## PCBs
 OSHPARK PCBs (USA) or PCB Way. $100
 JCLPCB (This for fatty pcb 7x7). 
-
-MCU no pins
-
-Comms Board, Main Board.
-
-Sensor Board Recycling
-1. BMP, Gyro, & SCD.
 
 ## Power 
 Add Solar Panels
@@ -63,10 +53,11 @@ Japanese Wood
 Fish eye Video
 2 ArduCAMs for pictures
 
-## Antenna's
+## Antenna & APRS
 PVC 
 Copper wire
 Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve. 
+Software for APRS: https://github.com/wb2osz/direwolf
 
 ## Weight
 ### KAOS-1 
@@ -160,7 +151,7 @@ Bring Change of Clothes, Shoes, Water, Snacks, Sun Protection. Wear Shorts.
 
 shoe covers for recovery https://www.amazon.com/Covers-Reusable-Waterproof-Cover-Non-Slip/dp/B0CQS49P6K/ref=sr_1_31?crid=2VRFRZJH75KB1&dib=eyJ2IjoiMSJ9.yIWybTD5ituqeCL6H3gq8ANSorAQs3GZD8hsBRiBxZ-zoKIDBR25od0hTTcEcycShp40imCrhlSi_AB-ErU8di4LhO7lSroZmq4XOkow2ISv57m5Cw-blxTXnAnrYAZ9kGfSylK92M-mhlsK4Ucyby9gH_s3X5QJsEky3PMVBbVmQmKo9YrFJImJ3ys7bUqg50rST6zAt5beCAiOkNVlK0_SabqWYksGYDZmhVuHLjVssa9T0gzdyJdzTGcOYbbBP6Mew6YcgADxOXmLHpudZb0Cr8heS-Uq9ub4skfIUUA.N7MRogix1sR5NrJ-7FswC5IwEPUmiHJ2jrTwwHLSsKo&dib_tag=se&keywords=Waterproof%2BShoe%2BCovers&qid=1779566752&sprefix=waterproof%2Bshoe%2Bcovers%2Caps%2C228&sr=8-31&th=1 
 
-### No longer Need
+## No longer Need
 https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
 
 https://www.arducam.com/arducam-raspberry-pi-camera-v2-8mp-ixm219-b0103.html -8MP 
