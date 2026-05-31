@@ -22,6 +22,8 @@ https://github.com/raspberrypi/pico-examples
 
 ## Video Capture
 
+Video will be captured on KAOS-2 using a Raspberry Pi 2 Zero W that takes continous video logs and saves it to the SD card. 
+
 ## Pictures
 
 # Communications
