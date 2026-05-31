@@ -83,7 +83,6 @@ Total Weight for calculations: 1418g
 ### KAOS-2 
 Max Payload Weight: 6 pounds (2721g)
 
-
 ## Parachute
 Reusing T-SAT A parachute
 
@@ -132,17 +131,16 @@ https://www.adafruit.com/product/1313 -8 ohm speaker
 
 ### Radio 
 
-https://www.verotelecom.com/Products/VGC-VR-N76-Dual-Band-Ham-Radio-KISS-TNC-Bluetooth-APRS-Satellite-Tracking-p2511333.html
+https://www.verotelecom.com/Products/VGC-VR-N76-Dual-Band-Ham-Radio-KISS-TNC-Bluetooth-APRS-Satellite-Tracking-p2511333.html - Radio APRS
 
 https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0BMKB3L47?th=1
 
-### Possible Camera's 
+https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0BMKB3L47/ref=sr_1_1?crid=FQJK092RCCYG&dib=eyJ2IjoiMSJ9.N4ZVdlenUF9u-6AF3u_JteIbbUksXHcP8OtpjhZOn2WhrBE1yn4NZc64CNgmhFQY11TYerw9ba-9cPaGEfUOD7DEengyP3M42jmahwcDWPJukoowxHP1WUqMQ5l8b7Kx_FEAp3iYm43TiOqVCU_Aqxvzb042hYXppMsfACmHWXTRQ_BE06M8phxPuqZ-P9ZfarzqaZOHhuO-5yYhwKOUlj5UF3LCpYqNi3Em_YZXbtjUn766x9_EA2b5QXvSVTW-ervOWcKaAprfUp7wARTRjWwYQveB7aKOs8q7TRBErhY.zCxr1qb7_GeiuG5ArjwPQPw8rIBN3qEIY0KZxCmWClo&dib_tag=se&keywords=RTL%2BSDR&qid=1780248613&s=electronics&sprefix=rtl%2Bsdr%2Celectronics%2C112&sr=1-1&th=1 -Radio Adapter
+
+### Cameras 
 https://www.arducam.com/arducam-ultra-wide-angle-fisheye-5mp-ov5647-camera-for-raspberry-pi.html -Fish eye Cam
 
-https://www.arducam.com/arducam-raspberry-pi-camera-v2-8mp-ixm219-b0103.html -8MP 
-
-
-https://www.seeedstudio.com/IMX219-160-Camera-160-FOV-Applicable-for-Jetson-Nano-p-4603.html?gad_source=1&gad_campaignid=12740460396&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWT9q29YHWw0daC5d7V-952_xm-jBUq4S1vEw0P4yQzej9PaIomw-WBoCXRIQAvD_BwE
+https://www.arducam.com/arducam-raspberry-pi-camera-v2-8mp-ixm219-b0103.html
 
 ### Camera Attachments 
 
@@ -154,9 +152,6 @@ https://www.arducam.com/multi-camera-v2-1-adapter-raspberry-pi.html
 
 https://www.adafruit.com/product/5855?gad_source=1&gad_campaignid=21079227318&gclid=CjwKCAjw2rrQBhBuEiwAarLWHTQTQLF9XBSzwCDK9d-VbhUqb3OOivSrNKz0ZjxTm2qZvzlb-eDjMBoCr6sQAvD_BwE
 
-### No longer Need
-https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
-
 # Recovery 
 
 if it lands in a hiking trail we can rent bikes. 
@@ -164,4 +159,11 @@ if it lands in a hiking trail we can rent bikes.
 Bring Change of Clothes, Shoes, Water, Snacks, Sun Protection. Wear Shorts.
 
 shoe covers for recovery https://www.amazon.com/Covers-Reusable-Waterproof-Cover-Non-Slip/dp/B0CQS49P6K/ref=sr_1_31?crid=2VRFRZJH75KB1&dib=eyJ2IjoiMSJ9.yIWybTD5ituqeCL6H3gq8ANSorAQs3GZD8hsBRiBxZ-zoKIDBR25od0hTTcEcycShp40imCrhlSi_AB-ErU8di4LhO7lSroZmq4XOkow2ISv57m5Cw-blxTXnAnrYAZ9kGfSylK92M-mhlsK4Ucyby9gH_s3X5QJsEky3PMVBbVmQmKo9YrFJImJ3ys7bUqg50rST6zAt5beCAiOkNVlK0_SabqWYksGYDZmhVuHLjVssa9T0gzdyJdzTGcOYbbBP6Mew6YcgADxOXmLHpudZb0Cr8heS-Uq9ub4skfIUUA.N7MRogix1sR5NrJ-7FswC5IwEPUmiHJ2jrTwwHLSsKo&dib_tag=se&keywords=Waterproof%2BShoe%2BCovers&qid=1779566752&sprefix=waterproof%2Bshoe%2Bcovers%2Caps%2C228&sr=8-31&th=1 
+
+### No longer Need
+https://www.newark.com/raspberry-pi/rpi-hq-camera/high-quality-camera-12-3mp/dp/67AH5587?CMP=KNC-GUSA-STANDARD-SHOPPING-RPI-OEM&gad_source=1&gad_campaignid=22967479914&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZQUM6AR_DOo7mSqUEMH4859y6xts9W0Hz8xK0rxeWI4RQNH82QOdhoCQyQQAvD_BwE
+
+https://www.arducam.com/arducam-raspberry-pi-camera-v2-8mp-ixm219-b0103.html -8MP 
+
+https://www.seeedstudio.com/IMX219-160-Camera-160-FOV-Applicable-for-Jetson-Nano-p-4603.html?gad_source=1&gad_campaignid=12740460396&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWT9q29YHWw0daC5d7V-952_xm-jBUq4S1vEw0P4yQzej9PaIomw-WBoCXRIQAvD_BwE
 
