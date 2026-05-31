@@ -12,9 +12,9 @@
 10. Spongy Black Foam. 
 
 ## Modules 
-1. SCD Temp & Humdity Sensor -$60
+1. SCD Temp & Humdity Sensor 
 2. BMP 
-3. Gyroscope The MPU-6050 (often labeled GY-521) is a 6-axis motion tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip. -$12.95
+3. Gyroscope The MPU-6050 (often labeled GY-521) is a 6-axis motion tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip. 
 4. SD Card - Adafruit
 5. Buzzer(Speaker) - Adafruit
 6. Clock - Adafruit
