@@ -15,9 +15,14 @@
 # Software
 KAOS-2 is using one raspberry pi pico and two raspberry pi 2 zero W. 
 
-## Pico 
+## MCUS
+### Pico 
 Set up MCU: https://github.com/raspberrypi/pico-sdk
 https://github.com/raspberrypi/pico-examples
+
+## Video Capture
+
+## Pictures
 
 # Communications
 
