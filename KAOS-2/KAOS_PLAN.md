@@ -54,19 +54,19 @@ Wind Fan
 Insulate Batteries
 
 ## Housing
-Cheap wood $10 
+Japanese Wood 
 
 ## MCU 
-2 picos
-1 Zero $28
+1 Pico 2 Zeros
 
 ## Camera's
-Fish eye $29
+Fish eye Video
+2 ArduCAMs for pictures
 
 ## Antenna's
 PVC 
 Copper wire
-Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve.
+Antenna was chopped due to PCB material. Test to see if using plastic or wood will solve. 
 
 ## Weight
 ### KAOS-1 
@@ -84,7 +84,7 @@ Total Weight for calculations: 1418g
 Max Payload Weight: 6 pounds (2721g)
 
 ## Parachute
-Reusing T-SAT A parachute
+Get new Parachute
 
 ## Flight Estimate
 3 hr ascend. 
