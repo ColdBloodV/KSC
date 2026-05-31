@@ -8,7 +8,7 @@
 6. Cameras (corrupted images). Ardu Mega
 7. Backup GPS Airtag(student Discount). 
 8. Antenna's (Hit up travis) 
-9. Hit up Diab to see if we can use GND station. 
+9.  Use GND station. 
 10. Spongy Black Foam. 
 
 ## Modules 
