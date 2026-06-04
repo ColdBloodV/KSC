@@ -1,0 +1,15 @@
+[Unit]
+Description=KAOS flight camera recorder
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/kaos
+ExecStart=/home/kaos/kaos_camera/record_chunks.sh
+Restart=on-failure
+RestartSec=5
+RestartPreventExitStatus=2 127
+
+[Install]
+WantedBy=multi-user.target
