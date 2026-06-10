@@ -9,6 +9,9 @@
 
 ## Regulator
 
+KAOS-1 used a linear regulator since it disepates the rest as thermal energy it could be reason why it overheated. 
+
+
 ## Power 
 
 
@@ -52,3 +55,5 @@ Using RTL-SDR connected to software DireWolf(virtual TNC) to receive and test AP
 To be used as a close range backup recovery tool. Works over Bluetooth. Ranges from 100feet (30 meters) outdoors
 
 Other Option: Tile trackers which range from 100-500ft. 
+
+Alternative: Use LoRa Module to get more accurate location on 3-9 mile range. 
