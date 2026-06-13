@@ -36,7 +36,9 @@ Video will be captured on KAOS-2 using a Raspberry Pi 2 Zero W that takes contin
 Due to the failure of communications on KAOS-1 the antennas might have to redisgned and implemented. 
 
 V-Dipole Antenna: 
+
 Antenna needs to be angled between 45-60 degrees per side 
+
 V-Dipole Antenna: https://apbouwens.github.io/V-dipole-rad-pat/
 
 ## Light APRS 
