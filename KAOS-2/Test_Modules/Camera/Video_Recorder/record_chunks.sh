@@ -8,15 +8,21 @@ set -u
 MEDIA_OWNER="${MEDIA_OWNER:-kaos}"
 MEDIA_HOME="${MEDIA_HOME:-/home/$MEDIA_OWNER}"
 OUT_ROOT="${OUT_ROOT:-$MEDIA_HOME/kaos_media/video}"
+PHOTO_ROOT="${PHOTO_ROOT:-$MEDIA_HOME/kaos_media/photos}"
 LOG_ROOT="${LOG_ROOT:-$MEDIA_HOME/kaos_media/logs}"
 
-CHUNK_MS="${CHUNK_MS:-600000}"
+CHUNK_MS="${CHUNK_MS:-60000}"
 MAX_CHUNKS="${MAX_CHUNKS:-0}"
+
+VIDEO_CAMERA="${VIDEO_CAMERA:-0}"
+PHOTO_CAMERA="${PHOTO_CAMERA:-1}"
 
 WIDTH="${WIDTH:-1296}"
 HEIGHT="${HEIGHT:-972}"
 FPS="${FPS:-30}"
 BITRATE="${BITRATE:-8000000}"
+PHOTO_WIDTH="${PHOTO_WIDTH:-4656}"
+PHOTO_HEIGHT="${PHOTO_HEIGHT:-3496}"
 LOW_SPACE_KB="${LOW_SPACE_KB:-1048576}"
 
 LED_PATH=""
@@ -133,16 +139,24 @@ if ! command -v rpicam-vid >/dev/null 2>&1; then
   exit 127
 fi
 
+if ! command -v rpicam-still >/dev/null 2>&1; then
+  echo "ERROR: rpicam-still is not installed or not on PATH" >&2
+  exit 127
+fi
+
 HOST="$(hostname)"
 SESSION="$(date -u +%Y%m%dT%H%M%SZ)_${HOST}"
 OUT_DIR="$OUT_ROOT/$SESSION"
+PHOTO_DIR="$PHOTO_ROOT/$SESSION"
 LOG_FILE="$LOG_ROOT/camera_${SESSION}.log"
 
-mkdir -p "$OUT_DIR" "$LOG_ROOT"
+mkdir -p "$OUT_DIR" "$PHOTO_DIR" "$LOG_ROOT"
 path_owner_fix "$MEDIA_HOME/kaos_media"
 path_owner_fix "$OUT_ROOT"
+path_owner_fix "$PHOTO_ROOT"
 path_owner_fix "$LOG_ROOT"
 path_owner_fix "$OUT_DIR"
+path_owner_fix "$PHOTO_DIR"
 
 trap cleanup EXIT
 trap 'cleanup; exit 0' INT TERM
@@ -152,14 +166,16 @@ led_blink 5 0.08 0.08
 
 log_line "KAOS camera recorder started: $(date -u)"
 log_line "Host: $HOST"
-log_line "Output: $OUT_DIR"
+log_line "Video output: $OUT_DIR"
+log_line "Photo output: $PHOTO_DIR"
 if [ "$MAX_CHUNKS" -eq 0 ]; then
   CHUNK_LIMIT_LABEL="unlimited"
 else
   CHUNK_LIMIT_LABEL="$MAX_CHUNKS"
 fi
 
-log_line "Settings: ${WIDTH}x${HEIGHT} ${FPS}fps bitrate=${BITRATE} chunk_ms=${CHUNK_MS} max_chunks=${CHUNK_LIMIT_LABEL}"
+log_line "Video settings: camera=${VIDEO_CAMERA} ${WIDTH}x${HEIGHT} ${FPS}fps bitrate=${BITRATE} chunk_ms=${CHUNK_MS} max_chunks=${CHUNK_LIMIT_LABEL}"
+log_line "Photo settings: camera=${PHOTO_CAMERA} ${PHOTO_WIDTH}x${PHOTO_HEIGHT}"
 
 i=0
 while [ "$MAX_CHUNKS" -eq 0 ] || [ "$i" -lt "$MAX_CHUNKS" ]; do
@@ -184,6 +200,7 @@ while [ "$MAX_CHUNKS" -eq 0 ] || [ "$i" -lt "$MAX_CHUNKS" ]; do
 
   if rpicam-vid \
     --nopreview \
+    --camera "$VIDEO_CAMERA" \
     -t "$CHUNK_MS" \
     --width "$WIDTH" \
     --height "$HEIGHT" \
@@ -206,6 +223,26 @@ while [ "$MAX_CHUNKS" -eq 0 ] || [ "$i" -lt "$MAX_CHUNKS" ]; do
     DISK="$(df -h "$OUT_ROOT" | awk 'NR==2 {print $4 " free"}')"
 
     log_line "[$(date -u)] Finished chunk $i size=$SIZE temp=$TEMP throttle=$THROTTLE disk=$DISK"
+
+    PHOTO_FILE="$PHOTO_DIR/photo_${TS}_$(printf "%06d" "$i").jpg"
+    log_line "[$(date -u)] Capturing photo after chunk $i: $PHOTO_FILE"
+    if rpicam-still \
+      --nopreview \
+      --camera "$PHOTO_CAMERA" \
+      -t 3000 \
+      --width "$PHOTO_WIDTH" \
+      --height "$PHOTO_HEIGHT" \
+      -o "$PHOTO_FILE" >> "$LOG_FILE" 2>&1; then
+      sync
+      path_owner_fix "$PHOTO_FILE"
+      PHOTO_SIZE="$(ls -lh "$PHOTO_FILE" | awk '{print $5}')"
+      log_line "[$(date -u)] Finished photo after chunk $i size=$PHOTO_SIZE"
+    else
+      rm -f "$PHOTO_FILE"
+      log_line "[$(date -u)] ERROR: photo after chunk $i failed"
+      led_blink 8 0.04 0.08
+    fi
+
     led_blink 3 0.06 0.08
   else
     stop_recording_led
