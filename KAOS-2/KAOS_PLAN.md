@@ -145,6 +145,10 @@ https://www.arducam.com/multi-camera-v2-1-adapter-raspberry-pi.html
 
 https://www.adafruit.com/product/5855?gad_source=1&gad_campaignid=21079227318&gclid=CjwKCAjw2rrQBhBuEiwAarLWHTQTQLF9XBSzwCDK9d-VbhUqb3OOivSrNKz0ZjxTm2qZvzlb-eDjMBoCr6sQAvD_BwE
 
+# Launch Day 
+
+We have to inform the FAA about our payload. Provide Payload weight and route a day before and two hours before launch 
+
 # Recovery 
 
 if it lands in a hiking trail we can rent bikes. 
