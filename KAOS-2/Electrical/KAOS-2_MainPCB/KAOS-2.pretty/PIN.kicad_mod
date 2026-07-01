@@ -1,0 +1,117 @@
+(footprint "PIN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.5 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0414d3d2-9ed5-493e-bb3b-76f26609666a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PIN"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "074f44b7-8e96-4baf-a1bc-fdae13dedb04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba1343ac-0718-4f19-a8c9-6ed672f65a21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47262c3e-081b-4502-b15d-ae823e1c925d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -15)
+		(end 15 -15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb113604-5cf4-4f4b-9d4a-b466000e0423")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffb32c09-1caf-493e-89fb-b08826225935")
+	)
+	(fp_line
+		(start 15 -15)
+		(end 15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ce6b894-3bdb-4f6a-bd5e-eb4508710299")
+	)
+	(fp_line
+		(start 15 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62c4e70f-8bdf-4d90-ae9d-150cf7539230")
+	)
+	(pad "" thru_hole circle
+		(at 2.5 -12.5)
+		(size 3.516 3.516)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1e4736d8-961f-4831-add4-34a5c2619ce4")
+	)
+	(pad "1" thru_hole circle
+		(at 3 -7)
+		(size 4 4)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "71174c3a-d3b3-40f8-9b1f-b9bbf38d4d7c")
+	)
+	(embedded_fonts no)
+)
