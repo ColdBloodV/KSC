@@ -56,8 +56,7 @@ File logFile;
 float groundPressure_hPa = 0.0;
 
 // ── Pressure-only landing detector ──────────────────────────────
-// These thresholds are intentionally used only in the BMP388's useful
-// lower-atmosphere range. IMU data is not part of this first decision path.
+
 #define BASELINE_DURATION_MS (60UL * 1000UL)
 #define ASCENT_DROP_HPA 150.0f
 #define ASCENT_CONFIRM_MS (60UL * 1000UL)
@@ -114,7 +113,7 @@ unsigned long lastImuLogTime = 0;
 #define SD_FLUSH_INTERVAL 10000
 #define LOG_SEGMENT_INTERVAL (15UL * 60UL * 1000UL)
 
-// Core 1 writes small batches; an expensive filesystem sync happens every 10 s.
+// Core 1 writes small batches; 
 #define LOG_BUFFER_SIZE 2048
 char logBuffer[LOG_BUFFER_SIZE];
 size_t logBufferUsed = 0;
@@ -178,9 +177,9 @@ float lastMagY        = NAN;
 float lastMagZ        = NAN;
 float lastImuTempC    = NAN;
 
-// ────────────────────────────────────────────────────────────────
+
 //  Sensor helpers
-// ────────────────────────────────────────────────────────────────
+
 float calculateAltitudeAboveBaseline(float pressurePa, float baselinePressureHpa) {
   float pressureHpa = pressurePa / 100.0;
   return 44330.0 * (1.0 - pow(pressureHpa / baselinePressureHpa, 0.1903));
