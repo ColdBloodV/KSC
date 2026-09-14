@@ -1,0 +1,14 @@
+[Unit]
+Description=KAOS payload shutdown listener
+After=multi-user.target
+Before=shutdown.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /home/kaos/kaos_camera/payload_shutdown.py
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
